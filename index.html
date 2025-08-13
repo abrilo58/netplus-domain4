@@ -926,7 +926,509 @@
                     </div>
                 </details>
             </div>
+        <!-- =================================================================== -->
+        <!-- Objective 4.3: Network Security Features, Defense Techniques, and Solutions -->
+        <!-- =================================================================== -->
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold border-b-2 border-blue-500 pb-2 mb-6 text-gray-900 dark:text-white">Objective 4.3: Network Security Features, Defense Techniques, and Solutions</h2>
+
+            <!-- Question 32 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 32</h4>
+                <p class="mb-4">A company's office has publicly accessible meeting rooms equipped with network ports. A recent audit revealed that visitors were able to access the corporate network by plugging personal laptops into open network ports. Which of the following should the company implement to prevent this in the future?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. URL filters</p>
+                    <p>B. VPN</p>
+                    <p>C. ACLs</p>
+                    <p>D. NAC</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: D. NAC</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> Network Access Control (NAC) authenticates devices before granting network access.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>A:</strong> URL filters control web access but not physical port access</li>
+                                <li><strong>B:</strong> VPN protects remote connections, not local network ports</li>
+                                <li><strong>C:</strong> ACLs filter traffic but don't authenticate devices</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
             
+            <!-- Question 33 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 33</h4>
+                <p class="mb-4">A network administrator is configuring a new switch and wants to ensure that only assigned devices can connect to the switch. Which of the following should the administrator do?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. Configure ACLs.</p>
+                    <p>B. Implement a captive portal.</p>
+                    <p>C. Enable port security.</p>
+                    <p>D. Disable unnecessary services.</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: C. Enable port security.</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> Port security restricts switch port access to specific MAC addresses.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>A:</strong> ACLs filter traffic but don't control physical port access</li>
+                                <li><strong>B:</strong> Captive portals are for wireless authentication</li>
+                                <li><strong>D:</strong> Service hardening doesn't prevent unauthorized connections</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 34 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 34</h4>
+                <p class="mb-4">A systems administrator is configuring a new device to be added to the network. The administrator is planning to perform device hardening prior to connecting the device. Which of the following should the administrator do first?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. Update the network ACLs.</p>
+                    <p>B. Place the device in a screened subnet.</p>
+                    <p>C. Enable content filtering.</p>
+                    <p>D. Change the default admin passwords.</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: D. Change the default admin passwords.</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> Default credentials are the most common attack vector and should be changed immediately.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>A:</strong> ACL updates are important but secondary to credential security</li>
+                                <li><strong>B:</strong> Network placement comes after basic hardening</li>
+                                <li><strong>C:</strong> Content filtering is a later security measure</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 35 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 35</h4>
+                <p class="mb-4">An administrator is configuring a switch that will be placed in an area of the office that is accessible to customers. Which of the following is the best way for the administrator to mitigate unknown devices from connecting to the network?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. SSE</p>
+                    <p>B. ACL</p>
+                    <p>C. Perimeter network</p>
+                    <p>D. 802.1X</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: D. 802.1X</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> 802.1X provides port-based authentication before granting network access.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>A:</strong> SSE (Security Service Edge) is for cloud security</li>
+                                <li><strong>B:</strong> ACLs filter traffic but don't authenticate devices</li>
+                                <li><strong>C:</strong> Perimeter networks don't prevent local connections</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 36 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 36</h4>
+                <p class="mb-4">Which of the following are the best device-hardening techniques for network security? (Choose two.)</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. Disabling unused ports</p>
+                    <p>B. Performing regular scanning of unauthorized devices</p>
+                    <p>C. Monitoring system logs for irregularities</p>
+                    <p>D. Enabling logical security such as SSO</p>
+                    <p>E. Changing default passwords</p>
+                    <p>F. Ensuring least privilege concepts are in place</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answers: A. Disabling unused ports, E. Changing default passwords</p>
+                        <div class="explanation-section">
+                            <p><strong>Why these are correct:</strong> These are fundamental hardening techniques - disabling unused ports reduces attack surface, and changing defaults prevents credential-based attacks.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>B:</strong> Scanning is detection, not hardening</li>
+                                <li><strong>C:</strong> Monitoring is reactive, not proactive hardening</li>
+                                <li><strong>D:</strong> SSO is an access method, not hardening</li>
+                                <li><strong>F:</strong> Least privilege is access control, not device hardening</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 37 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 37</h4>
+                <p class="mb-4">A network administrator wants users to be able to authenticate to the corporate network using a port-based authentication framework when accessing both wired and wireless devices. Which of the following is the best security feature to accomplish this task?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. 802.1X</p>
+                    <p>B. Access control list</p>
+                    <p>C. Port security</p>
+                    <p>D. MAC filtering</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: A. 802.1X</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> 802.1X provides standardized port-based authentication for both wired and wireless.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>B:</strong> ACLs filter traffic but don't authenticate</li>
+                                <li><strong>C:</strong> Port security is MAC-based, not user authentication</li>
+                                <li><strong>D:</strong> MAC filtering doesn't provide user authentication</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 38 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 38</h4>
+                <p class="mb-4">A network administrator is implementing security zones for each department. Which of the following should the administrator use to accomplish this task?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. ACLs</p>
+                    <p>B. Port security</p>
+                    <p>C. Content filtering</p>
+                    <p>D. NAC</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: A. ACLs</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> Access Control Lists define permitted traffic between network segments/zones.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>B:</strong> Port security controls device access to switch ports</li>
+                                <li><strong>C:</strong> Content filtering blocks specific content types</li>
+                                <li><strong>D:</strong> NAC authenticates devices but doesn't create zones</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 39 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 39</h4>
+                <p class="mb-4">A company is implementing a policy that will not allow employees to bring personal devices to the office and connect to the wireless network. Which of the following is the best way to enforce this policy?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. MAC filtering</p>
+                    <p>B. 802.1X</p>
+                    <p>C. Port security</p>
+                    <p>D. ACL</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: B. 802.1X</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> 802.1X can authenticate corporate devices while rejecting personal ones.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>A:</strong> MAC filtering is easily spoofed and hard to maintain</li>
+                                <li><strong>C:</strong> Port security applies to wired connections</li>
+                                <li><strong>D:</strong> ACLs filter traffic but don't control device connections</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 40 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 40</h4>
+                <p class="mb-4">A company has observed increased user traffic to gambling websites and would like to limit this behavior on work computers. Which of the following should the company most likely implement?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. ACLS</p>
+                    <p>B. Content filter</p>
+                    <p>C. Port security</p>
+                    <p>D. Screened subnet</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: B. Content filter</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> Content filters specifically block access to inappropriate website categories.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>A:</strong> ACLs control network traffic but not specific website categories</li>
+                                <li><strong>C:</strong> Port security controls physical port access</li>
+                                <li><strong>D:</strong> Screened subnets protect internal networks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 41 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 41</h4>
+                <p class="mb-4">A network administrator wants to restrict inbound traffic to allow only HTTPS to the company website, denying all other inbound traffic from the internet. Which of the following would best accomplish this goal?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. ACL on the edge firewall</p>
+                    <p>B. Port security on an access switch</p>
+                    <p>C. Content filtering on a web gateway</p>
+                    <p>D. URL filtering on an outbound proxy</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: A. ACL on the edge firewall</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> Firewall ACLs control inbound traffic at the network perimeter.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>B:</strong> Port security controls device access to switch ports</li>
+                                <li><strong>C:</strong> Content filtering inspects allowed traffic</li>
+                                <li><strong>D:</strong> URL filtering controls outbound web access</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 42 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 42</h4>
+                <p class="mb-4">A company recently acquired a number of sites and no documentation was provided. A network administrator needs to identify and document all of the digital assets in use. Which of the following is the best method for the administrator to use?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. Availability monitoring</p>
+                    <p>B. Packet capture</p>
+                    <p>C. Physical inventory</p>
+                    <p>D. Network discovery</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: D. Network discovery</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> Network discovery tools automatically identify and catalog network assets.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>A:</strong> Monitoring checks status of known assets</li>
+                                <li><strong>B:</strong> Packet capture analyzes traffic patterns</li>
+                                <li><strong>C:</strong> Physical inventory misses virtual/networked assets</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 43 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 43</h4>
+                <p class="mb-4">A network administrator is setting up a firewall to protect the organization's network from external threats. Which of the following should the administrator consider first when configuring the firewall?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. Required ports, protocols, and services</p>
+                    <p>B. Inclusion of a deny all rule</p>
+                    <p>C. VPN access</p>
+                    <p>D. Outbound access originating from customer-facing servers</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: B. Inclusion of a deny all rule</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> Firewalls should default to deny all, then explicitly allow required traffic.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>A:</strong> Important but comes after establishing default deny</li>
+                                <li><strong>C:</strong> VPN configuration follows basic firewall rules</li>
+                                <li><strong>D:</strong> Server rules are more granular configurations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 44 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 44</h4>
+                <p class="mb-4">A server administrator deploys a new web server with an IP address of 192.168.16.100. The security policy dictates that all non-secure connection methods should be blocked. Which of the following security rules will satisfy the request without prohibiting other traffic?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. Deny any 192.168.16.0 255.255.255.0 80</p>
+                    <p>B. Deny 192.168.16.100 255.255.255.255 any</p>
+                    <p>C. Deny any 192.168.16.100 255.255.255.255 80</p>
+                    <p>D. Permit any 192.168.16.100 255.255.255.255 80</p>
+                    <p>E. Permit 192.168.16.100 255.255.255.255 any</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: C. Deny any 192.168.16.100 255.255.255.255 80</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> Specifically blocks HTTP (port 80) traffic to the server while allowing other services.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>A:</strong> Blocks all HTTP traffic to the entire subnet</li>
+                                <li><strong>B:</strong> Blocks all traffic to the server</li>
+                                <li><strong>D:</strong> Permits rather than blocks HTTP</li>
+                                <li><strong>E:</strong> Permits all traffic to the server</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 45 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 45</h4>
+                <p class="mb-4">A technician wants to experiment with NAC in a wireless environment. Which of the following NAC techniques should be implemented for wireless networking if ease of implementation is the most important factor?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. Port security</p>
+                    <p>B. EAPoL</p>
+                    <p>C. 802.1X</p>
+                    <p>D. MAC filtering</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: D. MAC filtering</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> MAC filtering is the simplest NAC method to implement for wireless, though least secure.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>A:</strong> Port security applies to wired connections</li>
+                                <li><strong>B:</strong> EAPoL is part of 802.1X implementation</li>
+                                <li><strong>C:</strong> 802.1X is more secure but complex to implement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 46 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 46</h4>
+                <p class="mb-4">An organization is concerned about rogue devices connecting to the network and wants the network team to implement a solution. Which of the following types of filtering should the network team use to address this concern?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. MAC</p>
+                    <p>B. Content</p>
+                    <p>C. URL</p>
+                    <p>D. IP</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: A. MAC</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> MAC filtering controls which devices can connect to the network.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>B:</strong> Content filtering blocks specific data types</li>
+                                <li><strong>C:</strong> URL filtering controls web access</li>
+                                <li><strong>D:</strong> IP filtering controls traffic between networks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 47 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 47</h4>
+                <p class="mb-4">A company uses a solution to rotate the password that engineers use to connect to critical systems. Which of the following best describes this solution?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. Network access control</p>
+                    <p>B. TACACS+</p>
+                    <p>C. Key management</p>
+                    <p>D. Multifactor authentication</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: B. TACACS+</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> TACACS+ provides centralized authentication with configurable password rotation for network devices.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>A:</strong> NAC controls device access but not password rotation</li>
+                                <li><strong>C:</strong> Key management handles cryptographic keys, not passwords</li>
+                                <li><strong>D:</strong> MFA adds authentication factors but doesn't rotate passwords</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            
+            <!-- Question 48 -->
+            <div class="mb-8 p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+                <h4 class="text-lg font-semibold mb-4">Question 48</h4>
+                <p class="mb-4">A network technician is attempting to harden a commercial switch that was recently purchased. Which of the following hardening techniques best mitigates the use of publicly available information?</p>
+                <div class="space-y-2 mb-4">
+                    <p>A. Changing the default password</p>
+                    <p>B. Blocking inbound SSH connections</p>
+                    <p>C. Removing the gateway from the network configuration</p>
+                    <p>D. Restricting physical access to the switch</p>
+                </div>
+                <details class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4">
+                    <summary class="font-semibold cursor-pointer text-blue-600 dark:text-blue-400 flex justify-between items-center">
+                        Show Answer & Explanation <span class="arrow">▶</span>
+                    </summary>
+                    <div class="mt-4">
+                        <p class="text-green-600 dark:text-green-400 font-bold mb-2">Correct Answer: A. Changing the default password</p>
+                        <div class="explanation-section">
+                            <p><strong>Why this is correct:</strong> Default credentials are well-documented and the first thing attackers try.</p>
+                            <p class="mt-2"><strong>Why others are incorrect:</strong></p>
+                            <ul class="list-disc list-inside ml-4">
+                                <li><strong>B:</strong> SSH blocking may be needed but doesn't address default credentials</li>
+                                <li><strong>C:</strong> Gateway removal affects routing but not security</li>
+                                <li><strong>D:</strong> Physical security is important but separate from credential hardening</li>
+                            </ul>
+                        </div>
+                    </div>
+                </details>
+            </div>
     </div>
     <script src="script.js"></script>
 </body>
